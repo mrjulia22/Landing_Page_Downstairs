@@ -1,0 +1,21 @@
+<svg id="Componente_2_1" data-name="Componente 2 – 1" xmlns="http://www.w3.org/2000/svg" width="203" height="77" viewBox="0 0 203 77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cfcfcf;
+        font-size: 36px;
+        font-family: MicrosoftPhagsPa-Bold, Microsoft PhagsPa;
+        letter-spacing: 0.03em;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 24px;
+        font-family: MicrosoftPhagsPa, Microsoft PhagsPa;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+  <text id="DownStairs_Real_State" data-name="DownStairs
+Real State" class="cls-1" transform="translate(0 38)"><tspan x="0" y="0">DownStairs</tspan><tspan class="cls-2"><tspan x="0" y="33">Real State</tspan></tspan></text>
+</svg>
