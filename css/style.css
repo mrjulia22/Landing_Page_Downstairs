@@ -1,21 +1,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800;900&display=swap);
 
-
-*{
+* {
     background-color: #131313;
 }
-:root{
-    --blue-color:#0468BF;
+
+:root {
+    --blue-color: #0468BF;
     --gray-color: #f1f1f1;
 }
 
-.btn-subscribe{
+.btn-subscribe {
     background-color: var(--blue-color);
     font-family: 'Montserrat', sans-serif;
 }
 
-.txt-value{
+.txt-value {
     font-family: 'Montserrat', sans-serif;
     color: var(--gray-color);
 }
-
