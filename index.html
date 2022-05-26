@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <!--HEAD-->
+
 <head>
   <!--DEFAULT-->
   <meta charset="utf-8">
@@ -13,11 +14,12 @@
 
   <!--BOOTSTRAP STYLESHEET-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  </head>
+</head>
 <!--//HEAD-->
 <!--BODY-->
+
 <body>
   <!--NAV-->
   <nav class="navbar navbar-expand-lg navbar-dark py-0 px-5 sticky-top">
@@ -25,14 +27,15 @@
     <a class="navbar-brand" href="index.html">
       <img class="p-0 margin-0" src="assets/ativos/logo.svg" height="90px" width="90px">
     </a>
-    
+
     <!--RESPONSIVE-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
     <!--//RESPONSIVE-->
 
-    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <div class="collapse navbar-collapse text-center p-0 m-0" id="conteudoNavbarSuportado">
 
       <!--LISTA DESORDENADA-->
       <ul class="navbar-nav mr-0 ml-auto">
@@ -60,18 +63,6 @@
           <a class="nav-link" href="#">Contact</a>
         </li>
         <!--//CONTACT BUTTON-->
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Ação</a>
-            <a class="dropdown-item" href="#">Outra ação</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Algo mais aqui</a>
-          </div>
-        </li>
 
         <!--LUA-->
         <a class="nav-item active pr-5 py-1" href="#">
@@ -173,7 +164,7 @@
       </div>
     </div>
   </div>
-    <!--//CARROSSEL-->
+  <!--//CARROSSEL-->
 
   <!--TITLE VALUE-->
   <div class="container-fluid">
@@ -235,7 +226,7 @@
     <div class="row">
       <div class="col d-flex p-xl-5 m-xl-5 py-xl-5 my-xl-5">
         <div class="embed-responsive embed-responsive-16by9">
-          
+
           <iframe embed-responsive width="360" height="115" src="https://www.youtube.com/embed/N_UHTgGFTX8?controls=0"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -263,26 +254,79 @@
   <!--FORM-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-4 bg-danger">
-        <form>
-          <label for="nome">Nome:</label> <br>
+      <div class="col align-content-center">
+        <form class="form-apperence txt-value">
+          <label for="nome">Nome:</label><br>
           <input type="text" id="nome" onkeyup="validaNome()">
           <div id="txtNome"></div>
-          <br>
-          <label for="email">E-mail:</label> <br>
-          <input type="email" id="email" onkeyup="validaEmail()">    
+          <label for="email">E-mail:</label><br>
+          <input type="email" id="email" onkeyup="validaEmail()">
           <div id="txtEmail"></div>
-          <br>
-          <label for="assunto:">Assunto</label><br>
-          <textarea name="assunto" id="assunto" cols="21" rows="6" onkeyup="validaAssunto()"></textarea>
+          <label for="assunto:">Assunto:</label><br>
           <div id="txtAssunto"></div>
-          <br>
+          <textarea name="assunto" id="assunto" cols="30" rows="12" onkeyup="validaAssunto()"></textarea><br>
           <button class="button" onclick="enviar()" onmousemove="botaoZoom()" onmouseout="botaoNormal()">Enviar</button>
-      </form>
+        </form>
       </div>
     </div>
   </div>
   <!--//FORM-->
+
+  <!--FOOTER-->
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col d-flex justify-content-center py-xl-4">
+        
+        <footer>
+          
+          <a href="#">
+            <img src="assets/img/icon/facebook.svg" width="40px">
+          </a>
+          
+          <a href="#">
+            <img src="assets/img/icon/instagram.svg" width="40px">
+          </a>
+          
+          <a href="#">
+            <img src="assets/img/icon/twitter.svg" width="40px">
+          </a>
+          
+          <a href="#">
+            <img src="assets/img/icon/whatsapp.svg" width="40px">
+          </a>
+          
+          <a href="#">
+            <img src="assets/img/icon/mail.svg" width="40px">
+          </a>
+          
+          <a href="#">
+            <img src="assets/img/icon/github.svg" width="40px">
+          </a>
+          
+          <a href="#">
+            <img src="assets/img/icon/linkedin.svg" width="40px">
+          </a>
+
+        </footer>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col d-flex justify-content-center copy">
+        <h6>
+          All Rights Reserveds - Maria Julia Lemos &copy;
+        </h6>
+      </div>
+    </div>
+  </div>
+  <!--//FOOTER-->
+
+  <!--SCRIPT JS-->
+  <script src="js/script.js"></script>
+  <!--//SCRIPT JS-->
 
   <!--SCRIPT JS BOOTSTRAP-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -295,10 +339,6 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
   <!--//SCRIPT JS BOOTSTRAP-->
-
-  <!--SCRIPT JS-->
-  <script src="js/script.js"></script>
-  <!--//SCRIPT JS-->
 
 </body>
 <!--//BODY-->

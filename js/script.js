@@ -15,7 +15,7 @@ assunto.style.width = '25%'
 function validaNome() {
     let txtNome = document.querySelector('#txtNome')
 
-    if (nome.value.length < 3){
+    if (nome.value.length < 3) {
         txtNome.innerHTML = 'Nome inválido'
         txtNome.style.color = 'red'
     } else {
@@ -27,7 +27,7 @@ function validaNome() {
 
 function validaEmail() {
     let txtEmail = document.querySelector('#txtEmail')
-    if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1){
+    if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
         txtEmail.innerHTML = "E-mail inválido"
         txtEmail.style.color = 'red'
     } else {
@@ -39,7 +39,7 @@ function validaEmail() {
 
 function validaAssunto() {
     let txtAssunto = document.querySelector('#txtAssunto')
-    if (assunto.value.length >= 100){
+    if (assunto.value.length >= 100) {
         txtAssunto.innerHTML = 'Texto muito grande, digite no máximo 100 caracteres'
         txtAssunto.style.color = 'red'
         txtAssunto.style.display = 'block'
@@ -50,10 +50,10 @@ function validaAssunto() {
 }
 
 function enviar() {
-    if (nomeok == true && emailok == true && assuntook == true){
-        alert ('formulário enviado com sucesso!')
+    if (nomeok == true && emailok == true && assuntook == true) {
+        alert('formulário enviado com sucesso!')
     } else {
-        alert ('Preencha o formulário corretamente antes de enviar...')
+        alert('Preencha o formulário corretamente antes de enviar...')
     }
 }
 

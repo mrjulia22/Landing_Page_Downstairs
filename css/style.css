@@ -18,3 +18,20 @@
     font-family: 'Montserrat', sans-serif;
     color: var(--gray-color);
 }
+
+.form-apperence {
+    border-color: var(--gray-color);
+    padding: 0%;
+}
+
+.form-apperence textarea button {
+    border-color: var(--gray-color);
+}
+
+.footer-background {
+    background-color: var(--gray-color);
+}
+
+.copy {
+    color: var(--gray-color);
+}
